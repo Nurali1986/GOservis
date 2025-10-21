@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mijoz Ro'yxatdan O'tish</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="logo">Mijoz Ro'yxatdan O'tish</h1>
+
+    <div class="form-container">
+      <form id="clientForm" novalidate>
+        <input type="text" id="cFirstName" placeholder="Ismi" required />
+        <input type="text" id="cLastName" placeholder="Familiyasi" required />
+        <input type="tel" id="cPhone" placeholder="Telefon raqami" required />
+        <input type="email" id="cEmail" placeholder="Email pochtasi" required />
+
+        <button type="submit" id="clientSubmit">Ro'yxatdan o'tish</button>
+      </form>
+
+      <p class="back-text"><span id="back-login">← Orqaga</span></p>
+    </div>
+  </div>
+
+  <!-- OTP modal (formdan tashqarida) -->
+  <div id="otpModal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="otpTitle">
+    <div class="modal-content" role="document">
+      <h3 id="otpTitle">Telefon raqamni tasdiqlash</h3>
+      <p id="otpMessage"></p>
+
+      <input type="text" id="clientOtpInput" placeholder="6 xonali kodni kiriting" inputmode="numeric" />
+      <p id="clientOtpError" class="error-text" aria-live="polite"></p>
+
+      <div class="modal-actions">
+        <button id="verifyClientOtp">Tasdiqlash</button>
+        <button id="resendOtp" class="secondary">Qayta yuborish</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="customer-register.js"></script>
+</body>
+</html>
