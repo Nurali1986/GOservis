@@ -29,7 +29,22 @@ const langData = {
     brend: "Brendllar",
     franshiza: "Franshiza",
     mobil: "Mobil ilova",
-    integr: "Integratsiya"
+    integr: "Integratsiya",
+
+ salons: "Sartarashxonalar",
+    booking: "Bron qilish",
+    book_now: "Bron qilish",
+    book_appointment: "Uchrashuv bron qilish",
+    select_service: "Xizmat turi:",
+    select_date: "Sana:",
+    select_time: "Vaqt:",
+    confirm_booking: "Bron qilishni tasdiqlash",
+    popular_salons: "Mashhur sartarashxonalar",
+    hero_title: "Sartaroshlik xizmatlari",
+    hero_text: "Eng yaxshi sartaroshlar bilan uchrashing"
+
+
+
   },
 
   ru: {
@@ -62,7 +77,20 @@ const langData = {
     brend: "Бренды",
     franshiza: "Франшиза",
     mobil: "Мобильное приложение",
-    integr: "Интеграции"
+    integr: "Интеграции",
+
+salons: "Парикмахерские",
+    booking: "Бронирование",
+    book_now: "Забронировать",
+    book_appointment: "Запись на прием",
+    select_service: "Тип услуги:",
+    select_date: "Дата:",
+    select_time: "Время:",
+    confirm_booking: "Подтвердить бронирование",
+    popular_salons: "Популярные парикмахерские",
+    hero_title: "Парикмахерские услуги",
+    hero_text: "Встречайтесь с лучшими парикмахерами"
+
   },
 };
 
